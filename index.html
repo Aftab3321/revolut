@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/png">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-color">
+            <div class="container">
+                <a class="navbar-brand" href="/">
+                    <img src="./assets/icons/site-logo.svg" alt="Revolut">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Personal</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Business</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Revolut < 18</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Company</a>
+                        </li>
+                    </ul>
+                    <div class="cta">
+                        <button class="btn main_button" type="submit">Sign up</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero-section">
+            <div class="container">
+                <div class="row align-items-center g-5">
+                    <div class="col-11 col-lg-6">
+                        <p class="text-gray">Fixed Rate Savings</p>
+                        <h1 class="display-5 fw-bolder text-color lh-1 mb-1 heading-font-xlarge">Savings, on <br> demand</h1>
+                        <p class="text-color body-font py-4">Guaranteed 5.75% AER (fixed) interest paid monthly. No withdrawals. No fees. Minimum £10,000. Protected up to £85,000.</p>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-start ">
+                            <button type="button" class="btn main_button">Apply Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="account_section">
+        <div class="container">
+            <div class="account_section_wrapper">
+                <div class="section-paragraph">
+                    <p class="text-color body-font pe-0 me-0">The Annual Equivalent Rate (AER) shows the interest you can earn over 1 year. AER is compounded, so you’ll earn interest on interest already earned.
+                        Rates depend on your plan type and savings' currency, from up to 4% on our Standard plan to up to 5% on our Ultra plan. Paid plan subscription fees and
+                        T&Cs apply. Interest offered is subject to change and any interest earned is liable to the applicable taxes. Instant Access Savings T&Cs apply.</p>
+                </div>
+                <div class="section-heading-wrapper my-4 py-md-5">
+                    <h2 class="heading-font-large text-center fw-bold pt-md-4">How to open a savings account</h2>
+                    <p class="secondary-color text-center body-font py-3">After completing the savings account application form, follow the 3 simple steps..</p>
+                </div>
+                <div class="account_cards_wrapper py-3 py-md-5">
+                    <div class="row row-cols-1 row-cols-md-3 mb-3 g-sm-5">
+                        <div class="col">
+                            <div class="card mb-0 h-100">
+                                <div class="card-header border-bottom-0 primary-bg-color py-3">
+                                    <img src="./assets/icons/r-logo.svg" alt="R Logo" width="32" height="32">
+                                </div>
+                                <div class="card-body primary-bg-color">
+                                    <h2 class="card-title pricing-card-title heading-font-small ">Open the Revolut app</h2>
+                                    <p class="text-ligh-gray body-font py-1">Log into your account with the details you sent to you after your savings account application is approved.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card mb-0 h-100">
+                                <div class="card-header border-bottom-0 primary-bg-color py-3">
+                                    <img src="./assets/icons/mask_icon.svg" alt="vault logo" width="32" height="32">
+                                </div>
+                                <div class="card-body primary-bg-color">
+                                    <h2 class="card-title pricing-card-title heading-font-small ">Verify your identity</h2>
+                                    <p class="text-ligh-gray body-font py-2">Using your passport or drivers licence, verify your ID with a picture.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card mb-0 h-100">
+                                <div class="card-header border-bottom-0 primary-bg-color py-3">
+                                    <img src="./assets/icons/plus_icon.svg" alt="Plus Icon" width="32" height="32">
+                                </div>
+                                <div class="card-body primary-bg-color">
+                                    <h2 class="card-title pricing-card-title heading-font-small ">Add money</h2>
+                                    <p class="text-ligh-gray body-font py-2">Now add the money that you want to save, once added, interest will start immediately.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="interest_section pt-0">
+        <div class="container">
+            <div class="interest_section_wrapper">
+                <div class="section-heading-wrapper mt-4 py-md-5">
+                    <h2 class="heading-font-large text-center fw-bold pt-md-4 d-none d-md-block">Interest paid day after day <br>after day....</h2>
+                    <h2 class="heading-font-large text-center fw-bold pt-md-4 d-bloc d-md-none">Interest paid day after day after day....</h2>
+                    <p class="secondary-color text-center body-font py-3">Open an account in seconds, and see your money grow — every single day.</p>
+                </div>
+                <div class="large_heading_wrapper mx-auto mb-0 mb-md-5">
+                    <h2 class="giant-heading fw-bolder text-color">5.75.%</h2>
+                    <p class="text-color body-font fw-bold">AER (fixed)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="account_section">
+        <div class="container">
+            <div class="account_section_wrapper">
+                <div class="section-heading-wrapper my-4 py-md-5">
+                    <h2 class="heading-font-large text-center fw-bold pt-md-4">Simple and secure savings</h2>
+                    <p class="secondary-color text-center body-font py-3">Our rates turn heads, but there’s plenty more reasons why your money will thrive.</p>
+                </div>
+                <div class="account_cards_wrapper py-3 py-md-5">
+                    <div class="row row-cols-1 row-cols-md-3 mb-3 g-sm-5">
+                        <div class="col">
+                            <div class="card mb-0 h-100">
+                                <div class="card-header border-bottom-0 primary-bg-color py-3">
+                                    <img src="./assets/icons/db-icon.svg" alt="Database Logo" width="32" height="32">
+                                </div>
+                                <div class="card-body primary-bg-color">
+                                    <h2 class="card-title pricing-card-title heading-font-small ">Save up to £200,000</h2>
+                                    <p class="text-ligh-gray body-font py-1">Whether you deposit a little or a lot, your
+                                        money starts working for you the moment it hits your account.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card mb-0 h-100">
+                                <div class="card-header border-bottom-0 primary-bg-color py-3">
+                                    <img src="./assets/icons/infinity-icon.svg" alt="Infinity Icon" width="32" height="32">
+                                </div>
+                                <div class="card-body primary-bg-color">
+                                    <h2 class="card-title pricing-card-title heading-font-small ">Assistance on demand</h2>
+                                    <p class="text-ligh-gray body-font py-2">Contact our savings team at any time to help with any queries or problems that you may face.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card mb-0 h-100">
+                                <div class="card-header border-bottom-0 primary-bg-color py-3">
+                                    <img src="./assets/icons/bank-icon.svg" alt="Bank Icon" width="32" height="32">
+                                </div>
+                                <div class="card-body primary-bg-color">
+                                    <h2 class="card-title pricing-card-title heading-font-small ">Enjoy peace of mind</h2>
+                                    <p class="text-ligh-gray body-font py-2">Your savings are protected up to £85,000
+                                        through the Financial Services Compensation Scheme (FSCS) via ClearBank Limited.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section_with_image adds_up_section">
+        <div class="container">
+            <div class="row flex-lg-row-reverse align-items-center justify-content-between justify-content-md-center justify-content-sm-center g-5 py-5">
+                <div class="col-12 col-sm-12 col-xs-12 col-lg-5">
+                    <img src="./assets/images/section-right-image.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700"
+                         height="500" loading="lazy">
+                </div>
+                <div class="col-lg-6 col-sm-12 col-xs-12 px-0 px-md-0 text-md-center text-xs-center">
+                    <h2 class="fw-bolder heading-font-large text-color">It all adds up <br>
+                        — fast</h2>
+                    <p class="text-color body-font pe-0 me-0 w-md-75">Depositing £10,000 at an interest rate of 5.75% AER, your balance would be £10,575 after 12 months.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="account_section">
+        <div class="container">
+            <div class="account_section_wrapper">
+                <div class="section-heading-wrapper py-md-3">
+                    <h2 class="heading-font-large text-center fw-bold pt-md-4">For when money matters most</h2>
+                    <p class="secondary-color text-center body-font py-3">Easily add money, and enjoy features to help you build towards your savings goals. That
+                        way, when the ‘big things’ happen, you’ll be ready.</p>
+                </div>
+                <div class="account_cards_wrapper py-3 py-md-5">
+                    <div class="money-matters-grid">
+                        <div class="item">
+                            <img src="./assets/images/grid-image-1.png" alt="Image" class="img-fluid" width="370" height="570" loading="lazy">
+                        </div>
+                        <div class="item">
+                            <img src="./assets/images/grid-image-2.png" alt="Image" class="img-fluid" width="370" height="570" loading="lazy">
+                        </div>
+                        <div class="item">
+                            <img src="./assets/images/grid-image-3.png" alt="Image" class="img-fluid" width="370" height="570" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section_with_image adds_up_section">
+        <div class="container">
+            <div class="row flex-lg-row-reverse align-items-center justify-content-between justify-content-md-center g-5 py-5">
+                <div class="col-12 col-sm-8 col-lg-5">
+                    <img src="./assets/images/section-right-image-2.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700"
+                         height="500" loading="lazy">
+                </div>
+                <div class="col-lg-6 px-0 px-md-5 text-md-center">
+                    <h2 class="fw-bolder heading-font-large text-color">Add money <br>
+                        your way</h2>
+                    <p class="text-color body-font pe-0 me-0 w-md-75 mx-md-auto">Whether paying yourself first or saving what's left, add what
+                        you like, when you like. With no minimums.</p>
+                    <a href="#" class="body-font-small text-color text-decoration-none">Get started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq_section">
+        <div class="container">
+            <h2 class="fw-bolder heading-font-large text-color text-center">Summary box</h2>
+            <div class="faq_wrapper py-5">
+                <details>
+                    <summary>What is the interest rate? <i class="plus_icon"></i></summary>
+                    <div class="dropdown">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aut fuga, hic in, itaque mollitia, necessitatibus possimus reprehenderit rerum temporibus ullam voluptate? At culpa dolorem est eum nisi reiciendis voluptates!</p>
+                    </div>
+                </details>
+                <details>
+                    <summary>Can Revolut change the interest rate?? <i class="plus_icon"></i></summary>
+                    <div class="dropdown">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aut fuga, hic in, itaque mollitia, necessitatibus possimus reprehenderit rerum temporibus ullam voluptate? At culpa dolorem est eum nisi reiciendis voluptates!</p>
+                    </div>
+                </details>
+                <details>
+                    <summary>What would the estimated balance be after 12 months based on a £1,000 deposit?<i class="plus_icon"></i></summary>
+                    <div class="dropdown">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aut fuga, hic in, itaque mollitia, necessitatibus possimus reprehenderit rerum temporibus ullam voluptate? At culpa dolorem est eum nisi reiciendis voluptates!</p>
+                    </div>
+                </details>
+                <details>
+                    <summary>How do I open and manage my account? <i class="plus_icon"></i></summary>
+                    <div class="dropdown">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aut fuga, hic in, itaque mollitia, necessitatibus possimus reprehenderit rerum temporibus ullam voluptate? At culpa dolorem est eum nisi reiciendis voluptates!</p>
+                    </div>
+                </details>
+                <details>
+                    <summary>Can I withdraw money? <i class="plus_icon"></i></summary>
+                    <div class="dropdown">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aut fuga, hic in, itaque mollitia, necessitatibus possimus reprehenderit rerum temporibus ullam voluptate? At culpa dolorem est eum nisi reiciendis voluptates!</p>
+                    </div>
+                </details>
+                <details>
+                    <summary>Additional Information <i class="plus_icon"></i></summary>
+                    <div class="dropdown">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aut fuga, hic in, itaque mollitia, necessitatibus possimus reprehenderit rerum temporibus ullam voluptate? At culpa dolorem est eum nisi reiciendis voluptates!</p>
+                    </div>
+                </details>
+                <details>
+                    <summary>Powered by ClearBank <i class="plus_icon"></i></summary>
+                    <div class="dropdown">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aut fuga, hic in, itaque mollitia, necessitatibus possimus reprehenderit rerum temporibus ullam voluptate? At culpa dolorem est eum nisi reiciendis voluptates!</p>
+                    </div>
+                </details>
+                <details>
+                    <summary>Tax <i class="plus_icon"></i></summary>
+                    <div class="dropdown">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aut fuga, hic in, itaque mollitia, necessitatibus possimus reprehenderit rerum temporibus ullam voluptate? At culpa dolorem est eum nisi reiciendis voluptates!</p>
+                    </div>
+                </details>
+                <details>
+                    <summary>AER Meaning <i class="plus_icon"></i></summary>
+                    <div class="dropdown">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aut fuga, hic in, itaque mollitia, necessitatibus possimus reprehenderit rerum temporibus ullam voluptate? At culpa dolorem est eum nisi reiciendis voluptates!</p>
+                    </div>
+                </details>
+                <details>
+                    <summary>FSCS Protection <i class="plus_icon"></i></summary>
+                    <div class="dropdown">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aut fuga, hic in, itaque mollitia, necessitatibus possimus reprehenderit rerum temporibus ullam voluptate? At culpa dolorem est eum nisi reiciendis voluptates!</p>
+                    </div>
+                </details>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-nav-item">
+                    <div>
+                        <p class="footer-nav-title">Company</p>
+                        <ul>
+                            <li>
+                                <a href="#">Sustainability</a>
+                            </li>
+                            <li>
+                                <a href="#">Code of Conduct</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-nav-item">
+                    <div>
+                        <p class="footer-nav-title">Crypto</p>
+                        <ul>
+                            <li>
+                                <a href="#">Crypto</a>
+                            </li>
+                            <li>
+                                <a href="#">Revolut Ramp</a>
+                            </li>
+                            <li>
+                                <a href="#">Revolut X</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p class="footer-nav-title">Investment</p>
+                        <ul>
+                            <li>
+                                <a href="#">Stocks</a>
+                            </li>
+                            <li>
+                                <a href="#">Commodities</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-nav-item">
+                    <div>
+                        <p class="footer-nav-title">Help</p>
+                        <ul>
+                            <li>
+                                <a href="#">Contact Us</a>
+                            </li>
+                            <li>
+                                <a href="#">Customer help</a>
+                            </li>
+                            <li>
+                                <a href="#">System Status</a>
+                            </li>
+                            <li>
+                                <a href="#">Developers API</a>
+                            </li>
+                            <li>
+                                <a href="#">Site Map</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-nav-item">
+                    <div>
+                        <p class="footer-nav-title">Security & Protection</p>
+                        <ul>
+                            <li>
+                                <a href="#">How We Protect Your Money</a>
+                            </li>
+                            <li>
+                                <a href="#">Report Lost Device</a>
+                            </li>
+                            <li>
+                                <a href="#">Learn About Fraud & Scams</a>
+                            </li>
+                            <li>
+                                <a href="#">Security Bugs</a>
+                            </li>
+                            <li>
+                                <a href="#">Consumer Security Insight Report</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-nav-item">
+                    <div>
+                        <p class="footer-nav-title">Accounts</p>
+                        <ul>
+                            <li>
+                                <a href="#">Personal Account</a>
+                            </li>
+                            <li>
+                                <a href="#">Joint Account</a>
+                            </li>
+                            <li>
+                                <a href="#">Freelancer Account</a>
+                            </li>
+                            <li>
+                                <a href="#">Revolut for Under 18s</a>
+                            </li>
+                            <li>
+                                <a href="#">Savings Account</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-nav-item">
+                    <div>
+                        <p class="footer-nav-title">Plans</p>
+                        <ul>
+                            <li>
+                                <a href="#">Standards</a>
+                            </li>
+                            <li>
+                                <a href="#">Plus</a>
+                            </li>
+                            <li>
+                                <a href="#">Premium</a>
+                            </li>
+                            <li>
+                                <a href="#">Metal</a>
+                            </li>
+                            <li>
+                                <a href="#">Ultra</a>
+                            </li>
+                            <li>
+                                <a href="#">Compare Plans</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-nav-item">
+                    <div>
+                        <p class="footer-nav-title">Global Finances</p>
+                        <ul>
+                            <li>
+                                <a href="#">Travel with Revolut</a>
+                            </li>
+                            <li>
+                                <a href="#">International Transfers</a>
+                            </li>
+                            <li>
+                                <a href="#">eSIM Data Plans</a>
+                            </li>
+                            <li>
+                                <a href="#">Lounges</a>
+                            </li>
+                            <li>
+                                <a href="#">Insurance</a>
+                            </li>
+                            <li>
+                                <a href="#">Donations</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-nav-item">
+                    <div>
+                        <p class="footer-nav-title">Smart Spending</p>
+                        <ul>
+                            <li>
+                                <a href="#">Cards</a>
+                            </li>
+                            <li>
+                                <a href="#">Payments</a>
+                            </li>
+                            <li>
+                                <a href="#">Money Management</a>
+                            </li>
+                            <li>
+                                <a href="#">RevPoints</a>
+                            </li>
+                            <li>
+                                <a href="#">Linked Accounts</a>
+                            </li>
+                            <li>
+                                <a href="#">Shops</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="footer-main-container">
+                <div class="footer-logo">
+                    <div class="logo-container">
+                        <img src="./assets/icons/site-logo-white.svg" alt="Revolut Logo">
+                    </div>
+                    <div class="socials">
+                        <i class="bi bi-facebook"></i>
+                        <i class="bi bi-instagram"></i>
+                        <i class="bi bi-twitter-x"></i>
+                        <i class="bi bi-linkedin"></i>
+                        <i class="bi bi-tiktok"></i>
+                    </div>
+                </div>
+                <div class="region-container">
+                    <div class="region">
+                        <i class="us-flag-icon"></i>
+                        <p>United Kingdom</p>
+                    </div>
+                    <div class="footer-list">
+                        <ul>
+                            <li><a href="#">Website Terms</a></li>
+                            <li><a href="#">Legal Agreements</a></li>
+                            <li><a href="#">Complaints</a></li>
+                            <li><a href="#">Privacy</a></li>
+                            <li><a href="#">UK Modern Slavery Policy</a></li>
+                            <li><a href="#">Customer Vulnerability</a></li>
+                            <li><a href="#">Data Privacy Statement for Candidates</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-paras">
+                <div>
+                    <p class="copy">&copy; Revolut Ltd 2025</p>
+                    <p class="para">If you would like to find out more about which Revolut entity you receive services from, please check our corresponding <a href="#">FAQ page</a> . If you have any other questions, please reach out to us via the in-app chat in the Revolut app.</p>
+                    <p class="para">Revolut Ltd is registered in England and Wales (No. 08804411), is authorised by the Financial Conduct Authority to offer e-money and payment services under the Electronic Money
+                        Regulations 2011 (FRN: 900562), and is registered with the Financial Conduct Authority to offer cryptocurrency services under the Money Laundering, Terrorist Financing and Transfer
+                        of Funds (Information on the Payer) Regulations 2017. Commodities services are provided by Revolut Ltd and are not regulated by the Financial Conduct Authority.</p>
+                    <p class="para">Revolut Travel Ltd (No. 10618740) is authorised by the Financial Conduct Authority to undertake insurance distribution activities (FRN: 780586). Our insurance products are arranged by <br>
+                        Revolut Travel Ltd and Revolut Ltd, an appointed representative of Revolut Travel Ltd. </p>
+                    <p class="para">Investment services are provided by Revolut Trading Ltd (No. 11567840), which is authorised and regulated by the Financial Conduct Authority (FRN: 933846).</p>
+                    <p class="para">The registered address of Revolut Ltd, Revolut Travel Ltd, and Revolut Trading Ltd is at 7 Westferry Circus, Canary Wharf, London, England, E14 4HD. You can read more about our
+                        terms and policies by clicking <a href="#">here</a>.</p>
+                </div>
+                <div class="footer-money-transfer">
+                    <div>
+                        <ul>
+                        <p>International Money Transfers:</p>
+                            <li><a href="#">Send Money to India</a></li>
+                            <li><a href="#">Send Money to Nigeria</a></li>
+                            <li><a href="#">Send Money to Poland</a></li>
+                            <li><a href="#">Send Money to Ghana</a></li>
+                            <li><a href="#">Send Money to Dubai</a></li>
+                            <li><a href="#">Send Money to the UK from India</a></li>
+                            <li><a href="#">Send Money to Saudi Arabia</a></li>
+                            <li><a href="#">Send Money to North Macedonia</a></li>
+                            <li><a href="#">Send Money to Kazakhstan</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                        <p>Exchange Rates: </p>
+                            <li><a href="#">Convert INR to GBP</a></li>
+                            <li><a href="#">Convert GBP to SAR</a></li>
+                            <li><a href="#">Convert GBP to CAD</a></li>
+                            <li><a href="#">Convert GBP to JYP</a></li>
+                            <li><a href="#">Convert GBP to SEK</a></li>
+                            <li><a href="#">Convert GBP to EGP</a></li>
+                            <li><a href="#">Convert 100 CAD to GBP</a></li>
+                            <li><a href="#">Convert 1000 INR to CAD</a></li>
+                            <li><a href="#">Convert 100 SGD to INR</a></li>
+                            <li><a href="#">Convert 1000 THB to GBP</a></li>
+                            <li><a href="#">Convert 1000 JYP to GBP</a></li>
+                            <li><a href="#">Compare Exchange Rates</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><a href="#">Revolut USA</a></li>
+                            <li><a href="#">Revolut Spain</a></li>
+                            <li><a href="#">Revolut Australia</a></li>
+                            <li><a href="#">Revolut Singapore</a></li>
+                            <li><a href="#">Revolut Estonia</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
