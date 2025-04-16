@@ -83,7 +83,8 @@ $(document).ready(function () {
         if (first_submit) {
             first_submit = false;
         } else {
-            emailjs.send(emailjs_service_id,emailjs_template_id,formData);
+            // Uncomment this for Email JS
+            //emailjs.send(emailjs_service_id,emailjs_template_id,formData);
         }
         console.log(nextTabButton.length);
         if (nextTabButton.length) {
@@ -91,6 +92,25 @@ $(document).ready(function () {
             nextTab.show();
         } else {
                 window.location.assign("./thankyou.html");
+        }
+    });
+
+    $('.back-arrow-container a').on('click', function (e) {
+        e.preventDefault();
+        const $form = $(this);
+        if (!validateForm($form)) return;
+
+        // Tab transition logic
+        const currentTab = $form.closest('.tab-pane');
+        const currentTabId = currentTab.attr('id');
+        const currentTabButton = $(`button[data-bs-target="#${currentTabId}"]`);
+        const nextTabButton = currentTabButton.closest('li').prev().find('button');
+        console.log(nextTabButton);
+        if (nextTabButton.length) {
+            const nextTab = new bootstrap.Tab(nextTabButton[0]);
+            nextTab.show();
+        } else {
+                window.location.assign("./");
         }
     });
 });
